@@ -67,13 +67,11 @@ A Python script that crawls a target website to collect email addresses. It uses
    - 3.Run the script:
    ```
    python3 Email-Scrapper.py
-
    ```
    **Enter the Target URL when prompted:**
    
    ```
    [+] Enter Target URL To Scan: https://example.com
-
    ```
    **View the Printed Results or check the optional output file (if configured).**
 
@@ -204,7 +202,6 @@ A Python script that crawls a target website to collect email addresses. It uses
        print("\n=== Emails Found ===")
        for mail in found_emails:
            print(mail)
-
    ```
 
 ## Configuration
