@@ -1,9 +1,7 @@
 # Email-Scrapper
 This repository contains a Python script that scrapes for email addresses by crawling links starting from a target URL. It uses Requests to fetch web pages and Beautiful Soup to parse HTML content.
 
-```
-
-Features
+##Features
 Same-Domain Restriction (optional)
 
 When enabled, the script will skip URLs that are not on the same domain as the initial start URL.
@@ -34,7 +32,7 @@ Install dependencies:
 bash
 Copy code
 pip install requests beautifulsoup4 lxml
-Usage
+##Usage
 Clone or Download this repository.
 Navigate to the folder containing the script.
 Run the script:
@@ -174,19 +172,19 @@ if __name__ == "__main__":
     print("\n=== Emails Found ===")
     for mail in found_emails:
         print(mail)
-Configuration
+##Configuration
 max_links: The maximum number of links the script will follow. Default is 100.
 same_domain: If set to True, the script will only scrape links on the same domain as the initial URL.
 output_file: Provide a file path (e.g., emails.txt) to save the emails. If None, results are only printed.
 Troubleshooting
-No emails found?
+##No emails found?
 Ensure the target site actually contains email addresses in its HTML. Some pages may load content dynamically (which this script won’t handle).
 Connection errors or timeouts?
 Try increasing the timeout parameter in the requests.get(...) call.
 Check if the site blocks web scraping or requires a different User-Agent.
 Script exits immediately?
 Make sure your Python environment is installed and properly set up with the required libraries.
-Disclaimer
+##Disclaimer
 This script is for educational and authorized research purposes only.
 Always check the website’s robots.txt policy and respect site terms of service.
 Use ethically and responsibly. The author assumes no liability for misuse of this tool.
