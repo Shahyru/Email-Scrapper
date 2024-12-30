@@ -1,6 +1,8 @@
 # Email-Scrapper
 This repository contains a Python script that scrapes for email addresses by crawling links starting from a target URL. It uses Requests to fetch web pages and Beautiful Soup to parse HTML content.
 
+```
+
 Features
 Same-Domain Restriction (optional)
 
