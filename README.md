@@ -57,10 +57,10 @@ A Python script that crawls a target website to collect email addresses. It uses
 
 ## Installation
 
-1. **Clone or Download** the repository:
+   **Clone or Download the repository:**
    ```bash
    git clone https://github.com/Shahyru/Email-Scrapper.git
-
+   ```
 ## Usage
    - 1.Clone or Download this repository.
    - 2.Navigate to the folder containing the script.
